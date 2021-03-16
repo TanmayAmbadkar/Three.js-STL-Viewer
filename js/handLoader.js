@@ -36,7 +36,7 @@ function init() {
   // Binary files
 
   var material = new THREE.MeshPhongMaterial( { color: 0x0e2045, specular: 0x111111, shininess: 200 } );
-  loader.load( 'https://github.com/TanmayAmbadkar/daabiz/raw/master/bone.stl', function ( geometry ) {
+  loader.load( 'https://raw.githubusercontent.com/TanmayAmbadkar/daabiz/9ae32a1efe3551c1da153fa2d2bd2f2d1b3dfd6e/bone.stl', function ( geometry ) {
     var mesh = new THREE.Mesh( geometry, material );
 
     mesh.position.set( 0, 0, 0 );
